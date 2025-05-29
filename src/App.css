@@ -85,4 +85,28 @@ footer {
       font-size: 20px;
   }
 }
+
+/* ===== password container ===== */
+.password-container {
+  position: relative;
+}
+
+.password-container input {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.toggle-eye {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  cursor: pointer;
+  color: #888;
+  font-size: 18px;
+}
+
+input.error {
+  border-color: red;
+}
   
